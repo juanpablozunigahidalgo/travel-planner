@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/travel-planner/static/js/main.11e6282f.js",
+    "main.js": "/travel-planner/static/js/main.b82fd6bf.js",
     "index.html": "/travel-planner/index.html",
-    "main.11e6282f.js.map": "/travel-planner/static/js/main.11e6282f.js.map"
+    "main.b82fd6bf.js.map": "/travel-planner/static/js/main.b82fd6bf.js.map"
   },
   "entrypoints": [
-    "static/js/main.11e6282f.js"
+    "static/js/main.b82fd6bf.js"
   ]
 }

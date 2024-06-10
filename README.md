@@ -1,16 +1,24 @@
 # travel-planner
 I got an assigment for the swedish airline company S.A.S. For the position. "DevEx Senior Engineer Evaluation".  Instructions given are stated bellow. 
-The live version on: 
+You can download the files .Then. "npm run start". 
 
-www.hereistheadress.com 
+# Explanation:
 
-# To make this work. 
+The web application is designed to work with Auth0 for user authentication, although it can also function without requiring login. Upon logging in, users gain access to a profile view and personalized user information display.
 
-You can try online on the live version . 
-Either. You can download it here on github.  
+The primary feature of the application is its ability to search for flights based on session, time, duration, and budget constraints. The form triggers an API call to the Amadeus free system (get-offers-api). Currently, the response from this API call is printed in the console, with a simple redirection to an example card view for flight offers. This decision was made to keep the implementation straightforward due to time constraints.
+
+# Limitations and Future Steps:
+
+I opted not to utilize Microsoft Azure for the backend due to exceeding the free tier limit on my personal account across various projects. Instead, I focused solely on developing a frontend using React and TypeScript. However, I acknowledge the importance of incorporating a backend Node solution for scalability purposes. Unlike using Redux as a frontend workaround, a backend architecture offloads data processing and heavy operations from the client, thereby reducing client-side complexity and facilitating easier horizontal scaling.
+
+Additionally, in future iterations, I intend to implement Azure Active Directory (AD) authentication, as it offers more control over different types of roles and is easier to manage.
+
+In my resume, I envision the application featuring a backend hosted on Azure, integrated with Azure AD directory authentication. I plan to include an architectural diagram illustrating how data will be managed, along with a clear outline of how user information and search queries will be stored. While these enhancements are feasible, the time investment required to implement them exceeds my current availability.
+
 
 # The instruction of the assigment were . 
-# ______________________________________
+# _______________________________________________________________________________________________
 # DevEx Senior Engineer Evaluation
 
 Scenario
